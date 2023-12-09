@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  width: max-content;
+  margin: 10px;
+}
+.hero_wrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
+  gap: 30px;
+}
+.hero_backlog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  gap: 20px;
+}
+
+.hero_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.hero_Todo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  gap: 20px;
+}
+.hero_progress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  gap: 20px;
+}
+.hero_done {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  gap: 20px;
+}
+.hero_cancel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  gap: 20px;
+}
+.hero_wrap_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.hero_wrap_left > :nth-of-type(1) {
+  font-size: 14px;
+  font-weight: 500;
+}
+.hero_wrap_left > :nth-of-type(2) {
+  font-size: 14px;
+  font-weight: 500;
+  color: #9fa3a9;
+}
+.hero_wrap_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
